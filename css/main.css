@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pacman{
+    border: 90px solid yellow;
+    border-right: 90px solid transparent;
+    border-radius: 90px;
+    margin: 50px auto;
+    width: 0;
+    height: 0;
+}
